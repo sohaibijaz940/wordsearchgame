@@ -23,3 +23,6 @@ A fully interactive, robust console-based puzzle game built entirely in C++. Thi
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/sohaibijaz940/wordsearchgame.git](https://github.com/sohaibijaz940/wordsearchgame.git)
+## 📸 Screenshots
+   <img width="1358" height="824" alt="image" src="https://github.com/user-attachments/assets/1217551a-7809-4692-aa03-d09db31e1e25" />
+
