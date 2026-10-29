@@ -1,28 +1,29 @@
-# Console Word Search Game 🔎
+# Word Search Studio — classic logic, playable browser edition
 
-**Developed:** Fall 2024 (Programming Fundamentals Final Project)
+![Modern Word Search Studio interface](https://raw.githubusercontent.com/sohaibijaz940/sohaib-engineering-portfolio/main/public/previews/word-search.webp)
 
-A fully interactive, robust console-based puzzle game built entirely in C++. This project demonstrates strong foundational skills in algorithmic logic, data persistence, and fault-tolerant system design.
+The original C++ word-search coursework, refined into a playable browser game while preserving the original solution and source history.
 
-## ✨ Features
+## Original foundation
 
-* **Multi-Directional Algorithms:** Employs string-matching algorithms to detect hidden words across a 15x15 2D grid in all directions (horizontal, vertical, and diagonal).
-* **Dynamic Difficulty:** Multiple difficulty levels tailored to challenge different players.
-* **Persistent High-Scores:** Tracks and stores player high scores locally across multiple sessions.
-* **Save & Resume Functionality:** Engineered a robust state-management system utilizing standard C++ File I/O (`fstream`) to serialize and restore game states, player data, and board configurations.
-* **Fault-Tolerant Inputs:** Complete input validation and error handling to prevent program crashes from unexpected keystrokes or corrupted local save files.
+Open `wordsearchgame.sln` in Visual Studio to inspect/build the original console game. Its fixed boards remain part of the browser edition's source reconciliation. The modern edition is maintained in the shared portfolio repository linked below.
 
-## 🛠️ Tech Stack
+## Modern demonstration
 
-* **Language:** C++
-* **Libraries:** Standard Template Library (STL), `<iostream>`, `<fstream>`, `<string>`, `<vector>`
-* **Architecture:** 2D Array manipulation, File I/O Serialization
+- Reproducible seeded 15×15 boards, difficulty-dependent directions and a UTC daily challenge.
+- Targets are placed before filler; only successfully placed words enter the target list. Original boards expose achievable words only.
+- Pointer and keyboard selection, reverse-path recognition, duplicate-score protection and local resume/personal records.
+- Visible candidate-by-candidate search traces using the same pure TypeScript engine.
+- Seed/direction/solvability tests plus an illustrated article and captioned English explainer.
 
-## 🚀 How to Run
+Scores and progress are local browser data, not a verified online leaderboard. Seeded randomness makes puzzles reproducible; it is not cryptographic randomness.
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/sohaibijaz940/wordsearchgame.git](https://github.com/sohaibijaz940/wordsearchgame.git)
-## 📸 Screenshots
-   <img width="1358" height="824" alt="image" src="https://github.com/user-attachments/assets/1217551a-7809-4692-aa03-d09db31e1e25" />
+## Source and setup
 
+- [Complete modern source](https://github.com/sohaibijaz940/sohaib-engineering-portfolio)
+- [This project's modern page source](https://github.com/sohaibijaz940/sohaib-engineering-portfolio/tree/main/src/app/demos/word-search/)
+- [Local setup, providers and verification](https://github.com/sohaibijaz940/sohaib-engineering-portfolio#run-locally)
+- [Engineering article source](https://github.com/sohaibijaz940/sohaib-engineering-portfolio/blob/main/src/content/writing/word-search.mdx)
+- [Original README, preserved for historical context](docs/ORIGINAL_README.md)
+
+The portfolio is currently a local demonstration; a public hosted demo URL will be added after deployment. Links above open source code, not a hosted application. No localhost URL is presented as a public demo.
