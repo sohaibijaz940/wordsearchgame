@@ -28,4 +28,4 @@ Scores and progress are local browser data, not a verified online leaderboard. S
 - [Engineering article source](https://github.com/sohaibijaz940/sohaib-engineering-portfolio/blob/main/src/content/writing/word-search.mdx)
 - [Original README, preserved for historical context](docs/ORIGINAL_README.md)
 
-The portfolio is currently a local demonstration; a public hosted demo URL will be added after deployment. Links above open source code, not a hosted application. No localhost URL is presented as a public demo.
+The public demo and portfolio are linked above. Original coursework and commit history remain preserved; source/setup links remain available for inspection.
