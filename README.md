@@ -1,5 +1,7 @@
 # Word Search Studio — classic logic, playable browser edition
 
+**[Try the live Word Search Studio demo](https://sohaibijaz.dev/demos/word-search/)** · [Case study](https://sohaibijaz.dev/projects/word-search/) · [Portfolio](https://sohaibijaz.dev)
+
 ![Modern Word Search Studio interface](https://raw.githubusercontent.com/sohaibijaz940/sohaib-engineering-portfolio/main/public/previews/word-search.webp)
 
 The original C++ word-search coursework, refined into a playable browser game while preserving the original solution and source history.
